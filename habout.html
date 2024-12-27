@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylehms.css">
+    <style>
+        /*about us*/
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+    </style>
+
+</head>
+<body>
+  <header class="header" id="header">
+    <h2 class="title">CARE ZONE</h2>
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="weather5.html">Contact Us</a>
+    <a href="habout.html">About Us</a>
+  </nav>
+  <div id="menubar" class="register">
+    <a href="#">Register</a>
+  </div>
+  </div>
+  </header>
+  <br><br>
+    <div class="about" id="about">
+        <h1 style="font-size: xx-large; text-decoration: underline;">ABOUT US</h1>
+        <p style="font-size:x-large; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+            Our hospital management system is designed to improve the quality and efficiency of healthcare services.
+          Our team of experts has crafted a user-friendly platform that streamlines administrative tasks, enhances 
+        patient care, and facilitates informed decision making. We are committed to delivering innovative
+      solutions that transform the healthcare experience.</p>
+    
+    <h2 style="text-align:center">Our Specialists</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="dr1.jpg" alt="Dr. Maitreyi Patel" style="width:100%">
+      <div class="container">
+        <h2>Dr. Maitreyi Patel</h2>
+        <p class="title">Consultant Dermatology</p>
+        <p>Clinical dermatology, Currently working as Consultant Dermatology at KD Hospital</p>
+        <p>maitreyi@gamil.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="dr2.jpg" alt="Dr. Jayshree Ganatra" style="width:100%">
+      <div class="container">
+        <h2>Dr. Jayshree Ganatra</h2>
+        <p class="title">Nuerologists</p>
+        <p>38 years of expertise, specializing in headache disorders, pain management, and neurodegenerative diseases.</p>
+        <p>jayshree@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="dr3.jpg" alt="Dr. Manthan Patel" style="width:100%">
+      <div class="container">
+        <h2>Dr. Manthan Patel</h2>
+        <p class="title">Neuro Surgery</p>
+        <p>Brain And Spine Surgeon in Ahmedabad with vast 
+            experience in the field of Neurosurgical diseases.</p>
+        <p>manthan@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>
